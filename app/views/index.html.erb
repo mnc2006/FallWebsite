@@ -4,7 +4,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
       <link rel="icon" href="#">
         <title>Homework</title>
-          <link rel="stylesheet" href="/styles.css">
+          <link rel="stylesheet" href="styles.css">
       </head>
       <body>
     <div class="container">
@@ -29,17 +29,17 @@
               <p>Pellentesque hendrerit libero vel odio accumsan, accumsan auctor massa congue. Fusce eu ex convallis, tincidunt lacus eget, tristique enim. Phasellus scelerisque, erat dignissim posuere sollicitudin, leo quam maximus erat, ac fermentum risus libero et dolor. Phasellus vel quam sodales, consequat lacus sed, malesuada justo. Aenean finibus dapibus nibh, et aliquet justo. Sed quis volutpat mauris. Nullam in ornare diam. Curabitur feugiat rhoncus nisl vel fringilla. Curabitur auctor justo sit amet mi scelerisque tempus. Nunc a urna dolor. Proin malesuada, ante vitae iaculis dignissim, arcu odio porta dolor, sed fermentum odio justo vel tortor.</p>
               </div>
             <div class="col-xs-6 col-xs-6">
-              <img src="images/images/fall2.jpg" />
+              <img src="fallblog/fall2.jpg" />
               <h3>Love Is In the Air</h3>
               <p>Curabitur eu enim ultricies, tempor dolor nec, lacinia risus. Sed ac viverra felis. Donec non volutpat tortor. Vivamus sed neque ligula. Pellentesque porta vestibulum neque, eget iaculis dolor interdum sed. Sed eu arcu nec urna molestie faucibus quis in dui. Vestibulum eu ex mi. Phasellus eget iaculis purus, tincidunt lacinia est. Ut eros mauris, porta at pulvinar eu, convallis id turpis. Proin metus justo, fermentum in porttitor vitae, tempor eu metus. Mauris ultricies tristique ornare. Nam fermentum rutrum mi maximus venenatis.</p>
             <div class="container">
             <div class="col-xs-6 col-lg-4">
               <h2>Most Popular Posts</h2>
               <div class="nav4" style="height 40px;"
-              <a href="#" class="blogs"> <img src="images/images/fall4.jpg" /></a>
-              <a href="#" class="blogs"> <img src="images/images/fall5.jpg" /></a>
-              <a href="#" class="blogs"> <img src="images/images/fall6.jpg" /><a/>
-              <a href="#" class="blogs"> <img src="images/images/fall7.jpg" /><a/>
+              <a href="#" class="blogs"> <img src="fallblog/fall4.jpg" /></a>
+              <a href="#" class="blogs"> <img src="fallblog/fall5.jpg" /></a>
+              <a href="#" class="blogs"> <img src="fallblog/fall6.jpg" /><a/>
+              <a href="#" class="blogs"> <img src="fallblog/fall7.jpg" /><a/>
             </div>
           </div>
         </div>
@@ -48,10 +48,10 @@
       <footer class="container-fluid">
         <div class="col-xs-1"></div>
         <div class="col-lg-4 col-md-4 col-sm-12 footer-logo"
-          <img class="img-responsive" src="/images/logo.png"
+          <img class="img-responsive" src="fallblog/logo.png"
         <p>&copy; IronYard-Michelle 2015</p>
         <div class="col-xs-6 col-sm-3 sidebar" id="sidebar">
-          <%= sidebar.each do |sidebar| %>
+          <% sidebar.each do |sidebar| %>
             <a href="#" class="list-group">Nav 1</a> <% sidebar[:class] %>
             <% end %>
           </div>
