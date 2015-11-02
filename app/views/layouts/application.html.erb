@@ -18,6 +18,7 @@
         </div>
       </div>
       <body>
+        <%= yield %>
   <footer class="container-fluid">
     <div class="col-xs-1"></div>
     <div class="col-lg-4 col-md-4 col-sm-12 footer-logo"
@@ -25,7 +26,7 @@
     <p>&copy; IronYard-Michelle 2015</p>
     <div class="col-xs-6 col-sm-3 sidebar" id="sidebar">
       <% sidebar.each do |sidebar| %>
-        <a href="#" class="list-group">Nav 1</a> <% sidebar[:class] %>
+        <a href="#" class="list-group">Nav</a> <% sidebar[:class] %>
         <% end %>
       </div>
     </div>
