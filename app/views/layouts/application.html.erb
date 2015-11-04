@@ -5,7 +5,9 @@
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
 </head>
+<body>
 <div class="container">
   <div class="row">
     <div class="col-xs-14">
@@ -17,7 +19,6 @@
           <h1 align="center">Fall Days</h1>
         </div>
       </div>
-      <body>
         <%= yield %>
   <footer class="container-fluid">
     <div class="col-xs-1"></div>
@@ -25,7 +26,7 @@
       <img class="img-responsive" src="fallblog/logo.png"
     <p>&copy; IronYard-Michelle 2015</p>
     <div class="col-xs-6 col-sm-3 sidebar" id="sidebar">
-        <a href="#" class="list-group">Nav</a> 
+        <a href="#" class="list-group">Nav</a>
       </div>
     </div>
   </footer>
